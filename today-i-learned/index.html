@@ -4,20 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Today I Learned</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <img src="logo.png" alt="Today I Learned Logo" />
       <h1>Today I Learned</h1>
+      <button>Share a fact</button>
     </header>
     <form>
-      <input type="text" />
-      <input type="text" />
+      <input type="text" placeholder="What did you learn today?" />
+      <span>200</span>
+      <input type="text" placeholder="Trustworthy source?" />
       <select>
+        <option value="">Choose a category:</option>
         <option value="Technology">Technology</option>
         <option value="Science">Science</option>
         <option value="Finance">Finance</option>
       </select>
+      <button type="Post">Post</button>
     </form>
     <main>
       <aside>
@@ -33,6 +38,13 @@
             React is being developed by Meta (formerly facebook)
             <a href="#" target="_blank">(Source)</a>
             <span>#Technology#</span>
+
+            <div>
+            <button>👍<strong>24</strong></button>
+            <button>🤯9</button>
+            <button>⛔️</button>
+            </div>
+
           </p>
         </li>
         <li>
@@ -42,6 +54,12 @@
             changed a diaper. Today, that number is down to 3%"
             <a href="#" target="_blank">(Source)</a>
             <span>#Society#</span>
+
+            <div>
+            <button>👍<strong>20</strong></button>
+            <button>🤯10</button>
+            <button>⛔️2</button>
+            </div>
           </p>
         </li>
       </ul>
